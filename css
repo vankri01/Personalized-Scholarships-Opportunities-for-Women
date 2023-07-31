@@ -1,0 +1,41 @@
+html{
+    background-color: lavender;
+    margin-left:3rem;
+    margin-right:3rem;
+}
+h2{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+input[type=text]{
+    width:12rem;
+    height:2rem;
+    border:1px solid goldenrod;
+    cursor:text;
+}
+input[type=text]:hover{
+    border:red;
+}
+input[type=text]:active{
+    border:red;
+    color:red;
+}
+input[type=number]{
+    width:12rem;
+    height:2rem;
+    border:1px solid goldenrod;
+    cursor:text;
+}
+select{
+    border:1px solid skyblue;
+    height:2rem;
+    cursor:pointer;
+}
+input[name=id]{
+    width:15rem;
+}
+input[type=radio]{
+    cursor:pointer;
+}
